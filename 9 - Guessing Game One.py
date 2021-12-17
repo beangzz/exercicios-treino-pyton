@@ -23,7 +23,6 @@ while (numero_usuario != numero_sorteado):
             print("Seu chute foi menor do que o valor sorteado!")
         elif(numero_usuario> numero_sorteado):
             print("Seu chute foi maior do que o valor sorteado!")
-
         else:
             print("Você acertou! \nVocê usou {} tentativas".format(tentativas))
             break

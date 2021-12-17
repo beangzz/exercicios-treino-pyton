@@ -10,4 +10,4 @@ for i in range(1, numero+1):
         divisores.append(i)
 
 
-print(divisores)
+print("Os divisores são: ", divisores)

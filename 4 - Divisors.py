@@ -11,3 +11,9 @@ for i in range(1, numero+1):
 
 
 print("Os divisores são: ", divisores)
+
+
+if (len(divisores) == 2):
+    print("{} é um número primo".format(numero))
+else:
+    print("{} não é primo".format(numero))
